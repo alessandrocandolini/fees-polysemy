@@ -14,6 +14,16 @@ dependencies:
 
 default-extensions:
 - OverloadedStrings
+- DataKinds
+- FlexibleContexts
+- GADTs
+- LambdaCase
+- PolyKinds
+- RankNTypes
+- ScopedTypeVariables
+- TypeApplications
+- TypeOperators
+- TypeFamilies
 
 ghc-options:
   - -Wall
@@ -50,7 +60,6 @@ tests:
     - hspec-discover
     - QuickCheck
     - hspec-wai
-    - hspec-wai-json
 
 verbatim:
   cabal-version: 3.0
