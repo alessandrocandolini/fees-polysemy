@@ -1,4 +1,4 @@
-[![CI](https://github.com/alessandrocandolini/fees-polysemy/actions/workflows/ci.yml/badge.svg)](https://github.com/alessandrocandolini/fees-polysemy/actions/workflows/ci.yml)
+[![CI](https://github.com/alessandrocandolini/fees-polysemy/actions/workflows/ci.yml/badge.svg)](https://github.com/alessandrocandolini/fees-polysemy/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/alessandrocandolini/fees-polysemy/branch/main/graph/badge.svg?token=v1CgP0EASY)](https://codecov.io/gh/alessandrocandolini/fees-polysemy)
 
 # fees-polysemy
 
