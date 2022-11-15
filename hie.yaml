@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "fees-polysemy:lib"
+
+    - path: "./app/Main.hs"
+      component: "fees-polysemy:exe:fees-polysemy-exe"
+
+    - path: "./app/Paths_fees-polysemy.hs"
+      component: "fees-polysemy:exe:fees-polysemy-exe"
+
+    - path: "./test"
+      component: "fees-polysemy:test:fees-polysemy-test"
+
