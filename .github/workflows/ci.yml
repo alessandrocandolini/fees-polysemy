@@ -44,17 +44,17 @@ jobs:
 
     - name: Install dependencies
       if: steps.cache.outputs.cache-hit != 'true'
-      timeout-minutes: 15
+      timeout-minutes: 25
       run: |
         stack build --system-ghc --test --no-run-tests --only-dependencies
 
     - name: Run tests with coverage
-      timeout-minutes: 15
+      timeout-minutes: 10
       run: |
         stack test --system-ghc --test --coverage --fast
 
     - name: Build
-      timeout-minutes: 15
+      timeout-minutes: 10
       run: |
         stack build --system-ghc --test --no-run-tests
 
