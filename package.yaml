@@ -11,6 +11,8 @@ dependencies:
 - generic-aeson
 - wai
 - warp
+- polysemy-plugin
+- polysemy
 
 default-extensions:
 - OverloadedStrings
@@ -31,6 +33,7 @@ ghc-options:
   - -Wincomplete-uni-patterns
   - -Wredundant-constraints
   - -Wunused-packages
+  - -fplugin=Polysemy.Plugin
 
 library:
   source-dirs: src
