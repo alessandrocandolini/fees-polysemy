@@ -1,3 +1,5 @@
+[![CI](https://github.com/alessandrocandolini/fees-polysemy/actions/workflows/ci.yml/badge.svg)](https://github.com/alessandrocandolini/fees-polysemy/actions/workflows/ci.yml)
+
 # fees-polysemy
 
 ## How to build and run locally
