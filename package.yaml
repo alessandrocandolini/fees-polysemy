@@ -63,6 +63,7 @@ tests:
     - hspec-discover
     - QuickCheck
     - hspec-wai
+    - neat-interpolation
 
 verbatim:
   cabal-version: 3.0
