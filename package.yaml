@@ -13,6 +13,7 @@ dependencies:
 - warp
 - polysemy-plugin
 - polysemy
+- time
 
 default-extensions:
 - OverloadedStrings

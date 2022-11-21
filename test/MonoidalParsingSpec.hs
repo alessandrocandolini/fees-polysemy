@@ -52,3 +52,8 @@ spec = describe "Monoidal parsing examples" $ do
 
      it "()((())()(()))(())" $
         balance "()((())()(()))(())" `shouldBe` Balance 0 0
+     
+     it "count bracket" $
+        (fold input) `shouldBe` 6 where
+          input :: [AdditiveInteger]
+          input = [1,2,3]
